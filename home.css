@@ -21,6 +21,10 @@ nav{
     padding: 20px;
     font-size: 18px;
 }
+.head1:hover
+{
+    color: rgb(102, 84, 84);
+}
 .search{
     height: 80px;
     margin-top: 10px;
@@ -29,20 +33,29 @@ nav{
 img[alt=logo]{
     width: 80px;
     height: 30px;
-    margin-left: 40px;
-   
+    margin-left: 40px;  
 }
 input::placeholder{
 padding: 10px;
+padding-left: 40px;
 font-size: 20px;
+}
+.fa-magnifying-glass
+{
+    position: relative;
+    left: 110px;
+    color: rgba(0, 0, 0, 0.553);
+    height: 20px;
 }
 .search input{
     width: 70%;
     height: 50px;
-    border: solid;
+    border: none;
+    background-color: #d0d0d0;
     margin-left: 80px;
 
 }
+
 
 .signup{
    display: inline-block;
@@ -52,6 +65,7 @@ font-size: 20px;
    margin-left: 10px;
    word-spacing: 10px;
    text-decoration: none;
+   border-radius: 10px;
 
 }
 .signup:link,.signup:visited,.signup:active{
@@ -146,12 +160,15 @@ a{
     background-color: transparent;
     border-radius: 20px;
     font-size: 20px;
+    background-color: #af1b20;
+    cursor: pointer;
 }
 img[alt="jelly"]{
     display: inline-block;
     position: relative;
     top: 50px;
     left: 45%;
+    height: 100px;
 }
 #p3{
     margin: 60px 0px 0px 580px;
@@ -184,8 +201,14 @@ img[alt="jelly"]{
     font-weight: 700;
 }
 .bottom-color{
-        background-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff);
-        width: 100vw;
-        height: 9px;
-    
+    background-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff);
+    width: 100vw;
+    height: 9px;
+
+}
+.bottom-color{
+    background-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff);
+    width: 100vw;
+    height: 9px;
+
 }
